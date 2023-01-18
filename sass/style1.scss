@@ -64,7 +64,7 @@ a{
 //     -ms-border-radius: $radius;
 //     border-radius: $radius;
 // }
-@import "mixins";
+@import "mixins.scss";
 .box{
     @include border-radius(5px);
 }
