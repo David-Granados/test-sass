@@ -67,3 +67,8 @@ a{
 .box{
     @include border-radius(5px);
 }
+/*Bucles*/
+@for $p from 2 to 12 {
+
+
+}
