@@ -58,17 +58,28 @@ a{
     width: partir($ancho,10);
 }
 /*mixins*/
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-}
+// @mixin border-radius($radius) {
+//     -webkit-border-radius: $radius;
+//     -moz-border-radius: $radius;
+//     -ms-border-radius: $radius;
+//     border-radius: $radius;
+// }
+@import "mixins";
 .box{
     @include border-radius(5px);
 }
 /*Bucles*/
+$p : 2;
 @for $p from 2 to 12 {
-
-
+    .col-#{$p}{
+        width: 100/$p+"%";
+    }
 }
+$y : 2;
+@while $y<=12 {
+    .col-while-#{$y}{
+        width: 100/$y+"%";
+    }
+    $y:$y+1;
+}
+/*includes*/
