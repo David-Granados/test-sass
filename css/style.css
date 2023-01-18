@@ -1,0 +1,86 @@
+/* line 4, ../../Desktop/test-sass/sass/style.sass */
+.contenedor, .contenedor-con-altura {
+  width: 1024px;
+}
+
+/* line 6, ../../Desktop/test-sass/sass/style.sass */
+h1, h2, h3, h4, p {
+  color: #0040FF;
+}
+
+/* line 8, ../../Desktop/test-sass/sass/style.sass */
+.contenedor-con-altura {
+  height: 514px;
+}
+
+/* line 11, ../../Desktop/test-sass/sass/style.sass */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 14, ../../Desktop/test-sass/sass/style.sass */
+ul ul {
+  font-size: 0.7rem;
+  color: red;
+}
+
+/* line 17, ../../Desktop/test-sass/sass/style.sass */
+ul ul ul {
+  font-size: 0.5rem;
+  color: blue;
+}
+
+/* line 20, ../../Desktop/test-sass/sass/style.sass */
+ul ul ul ul {
+  color: green;
+}
+
+/*elemento vario*/
+/* line 23, ../../Desktop/test-sass/sass/style.sass */
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* line 27, ../../Desktop/test-sass/sass/style.sass */
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* line 30, ../../Desktop/test-sass/sass/style.sass */
+a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 33, ../../Desktop/test-sass/sass/style.sass */
+a.enlace_propio {
+  color: red;
+}
+
+/*operacion simples*/
+/* line 36, ../../Desktop/test-sass/sass/style.sass */
+.mitad {
+  width: 512px;
+}
+
+/* line 38, ../../Desktop/test-sass/sass/style.sass */
+.cuarto {
+  width: 256px;
+}
+
+/* line 40, ../../Desktop/test-sass/sass/style.sass */
+.octavo {
+  width: 128px;
+}
+
+/*fuction*/
+/* line 45, ../../Desktop/test-sass/sass/style.sass */
+.decimo {
+  width: 102.4px;
+}
+
+/*# sourceMappingURL=style.css.map */
