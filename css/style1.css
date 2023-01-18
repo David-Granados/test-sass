@@ -80,4 +80,13 @@ a.enlace_propio {
   width: 128px;
 }
 
+/*mixins*/
+/* line 67, ../../Desktop/test-sass/sass/style1.scss */
+.box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style1.css.map */
